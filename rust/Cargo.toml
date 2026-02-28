@@ -8,7 +8,7 @@ authors = [
   "laser <l@s3r.com>"
 ]
 license = "MIT OR Apache-2.0"
-repository = "https://github.com/filecoin-project/filecoin-ffi"
+repository = "github.com/post-quantumqoin/qvm"
 readme = "README.md"
 edition = "2021"
 resolver = "2"
