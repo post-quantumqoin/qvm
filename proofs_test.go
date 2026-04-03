@@ -8,7 +8,7 @@ import (
 	"math/big"
 	"testing"
 
-	commcid "github.com/filecoin-project/go-fil-commcid"
+	commcid "github.com/post-quantumqoin/go-qoin-commcid"
 	"github.com/post-quantumqoin/core-types/abi"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

@@ -19,8 +19,8 @@ import (
 	"github.com/pkg/errors"
 	"golang.org/x/xerrors"
 
-	"github.com/filecoin-project/go-address"
-	commcid "github.com/filecoin-project/go-fil-commcid"
+	"github.com/post-quantumqoin/address"
+	commcid "github.com/post-quantumqoin/go-qoin-commcid"
 	"github.com/post-quantumqoin/core-types/abi"
 
 	"github.com/post-quantumqoin/qvm/cgo"

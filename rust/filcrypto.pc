@@ -1,4 +1,4 @@
 Name: filcrypto
-Version: 89ee26cad8077aae80f1acd59915efc11d71dc82
+Version: 77b66804748f77716e4f0efe897e75fdfb1d52ba
 Description: C bindings for Filecoin Proofs
 Libs:  -lhwloc -lcuda -lgcc_s -lutil -lrt -lpthread -lm -ldl -lc

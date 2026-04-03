@@ -8,9 +8,9 @@ import "C"
 import (
 	"unsafe"
 
-	"github.com/filecoin-project/go-address"
+	"github.com/post-quantumqoin/address"
 
-	"github.com/filecoin-project/go-state-types/abi"
+	"github.com/post-quantumqoin/core-types/abi"
 )
 
 //export cgo_extern_get_chain_randomness
