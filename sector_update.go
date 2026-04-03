@@ -4,7 +4,7 @@
 package ffi
 
 import (
-	commcid "github.com/filecoin-project/go-fil-commcid"
+	commcid "github.com/post-quantumqoin/go-qoin-commcid"
 	"github.com/ipfs/go-cid"
 	"github.com/pkg/errors"
 	"github.com/post-quantumqoin/core-types/abi"
