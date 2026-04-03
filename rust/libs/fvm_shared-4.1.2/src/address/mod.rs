@@ -224,7 +224,7 @@ impl fmt::Display for Address {
             }
             Payload::BLS(data) => write_payload(f, protocol, None, data),
             Payload::Delegated(addr) => {
-                write!(f, "{}f", addr.namespace())?;
+                write!(f, "{}q", addr.namespace())?;
                 write_payload(
                     f,
                     protocol,
@@ -313,7 +313,7 @@ pub(self) fn parse_address(addr: &str) -> Result<(Address, Network), Error> {
             }
         }
         Protocol::Delegated => {
-            let (id, subaddr) = raw.split_once('f').ok_or(Error::InvalidPayload)?;
+            let (id, subaddr) = raw.split_once('q').ok_or(Error::InvalidPayload)?;
             if id.len() > 20 {
                 // 20 is max u64 as string
                 return Err(Error::InvalidLength);
