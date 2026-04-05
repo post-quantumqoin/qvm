@@ -9,8 +9,12 @@ import (
 	"unsafe"
 
 	"github.com/post-quantumqoin/address"
-
 	"github.com/post-quantumqoin/core-types/abi"
+
+	_ "github.com/post-quantumqoin/qvm/pqccrypto/nistround3/dilithium/dilithium3"
+	_ "github.com/post-quantumqoin/qvm/pqccrypto/nistround3/dilithium/dilithium5"
+	_ "github.com/post-quantumqoin/qvm/pqccrypto/nistround3/falcon/falcon512"
+	_ "github.com/post-quantumqoin/qvm/pqccrypto/nistround3/falcon/falcon1024"
 )
 
 //export cgo_extern_get_chain_randomness
